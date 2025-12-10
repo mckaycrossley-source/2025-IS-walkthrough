@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    color: yellow;
+}
+
+h1{
+    font: size 36px;
+    color: white;
+    text-align: center;
+}
+
+body{ 
+    background-color: black;
+    color: yellow;
+}
+
+h2{
+    color: navy;
+    text-decoration: underline;
+    font-style:italic;
+    font-weight:bold;
+}
+
+p{
+    font-size: 25px;
+}
+
+#pinkparagraph{
+    color: pink;
+}
+
+.pretty{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+.common {
+    background-color: aliceblue ;
+    border: 2px solid white;
+    position: absolute;
+}
+
+.header {
+    z-index: 100;
+}
+
+.left { 
+    top: 200px;
+    left: 15px;
+    width: 150px;
+    bottom: 300px;
+
+}
+
+.main{
+    top: 115px;
+    left: 130px;
+    right: 140px;
+    bottom: 40px;
+}
+
+.right{
+    top: 200px;
+    right: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.footer{ 
+    bottom: 5px;
+    height: 25px;
+    left: 15px;
+    right: 25px;
+    position: fixed;
+    background-color: black;
+    border: 2px solid white;
+}
